@@ -27,3 +27,52 @@ h1{
     .container:hover{
         background-color: aliceblue;
     }
+
+
+
+    .footer {
+    background-color: #2c3e50; /* Dark blue/gray */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.footer form {
+    display: inline-block;
+    text-align: left;
+    max-width: 300px;
+    width: 100%;
+}
+
+.footer input[type="email"],
+.footer input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.footer input[type="email"]:focus,
+.footer input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px #3498db; /* Blue glow */
+}
+
+.footer input::placeholder {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.footer input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
